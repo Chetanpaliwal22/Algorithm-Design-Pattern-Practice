@@ -1,4 +1,4 @@
-package com.concordia.designpatter;
+package com.concordia.designpattern;
 
 import java.io.BufferedReader;
 

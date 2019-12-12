@@ -1,3 +1,5 @@
+package com.concordia.algo;
+
 /*
 *simple tree declaration. 
 */
