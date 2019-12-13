@@ -5,7 +5,7 @@ import java.util.Arrays;
 /*
  * Code to determine if a string has all unique characters or not. Return true or false.
  */
-public class ArrayPractice {
+public class UniqueCharacter {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
