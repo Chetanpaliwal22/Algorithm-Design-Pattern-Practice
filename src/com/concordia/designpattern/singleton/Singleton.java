@@ -1,4 +1,4 @@
-package com.concordia.designpattern;
+package com.concordia.designpattern.singleton;
 
 import java.io.BufferedReader;
 

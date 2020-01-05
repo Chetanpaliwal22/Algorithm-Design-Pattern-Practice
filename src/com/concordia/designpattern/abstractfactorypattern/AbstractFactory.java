@@ -8,18 +8,6 @@ package com.concordia.designpattern.abstractfactorypattern;
  * @author Chetan Paliwal
  *
  */
-public class AbstractFactory {
-
-	/*
-	 * AbstractFactory : It will be an interface.
-ConcreteFactory : This class will have implementations of the operations declared in the AbstractFactory
-Product : Defines a product object to be created by the corresponding concrete factory and implements the AbstractProduct interface.
-Client : We are the client.
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		
-	}
-
+public abstract class AbstractFactory {
+	abstract Shape getShape(String shapeType);
 }
