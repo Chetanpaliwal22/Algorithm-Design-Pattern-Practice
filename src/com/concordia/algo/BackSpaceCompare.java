@@ -1,11 +1,15 @@
+package com.concordia.algo;
+
+import java.util.*;
+
 class BackSpaceCompare {
  public boolean backspaceCompare(String S, String T) {
 
-  Stack < Character > schar = new Stack < Character > ();
-  Stack < Character > tchar = new Stack < Character > ();
+  Stack schar = new Stack ();
+  Stack tchar = new Stack ();
 
-  for (char c: S.toCharArray()) {
-   if (c == '#') {
+	for (char c: S.toCharArray()) {
+   if (c == '#') {  
     if (!schar.isEmpty()) {
      schar.pop();
     }

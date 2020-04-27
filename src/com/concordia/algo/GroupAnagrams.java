@@ -1,7 +1,11 @@
+package com.concordia.algo;
+
+import java.util.*;
+
 class GroupAnagrams {
  public List < List < String >> groupAnagrams(String[] strs) {
 
-  HashMap < String, List < String >> anaGroup = new HashMap < String, List < String >> ();
+		HashMap < String, List < String >> anaGroup = new HashMap < String, List < String >> ();
 
   for (int i = 0; i < strs.length; i++) {
    char[] charArr = strs[i].toCharArray();

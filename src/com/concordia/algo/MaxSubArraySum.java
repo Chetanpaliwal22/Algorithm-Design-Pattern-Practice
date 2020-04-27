@@ -1,3 +1,5 @@
+package com.concordia.algo;
+
 class MaxSubArraySum {
  public int maxSubArray(int[] nums) {
   if (nums.length == 0) {
